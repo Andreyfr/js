@@ -22,3 +22,14 @@ connection.query(
 )
 
 connection.end()
+
+/*
+To set a Linux environment variable need to use the following command:
+             export MYSECRETPASSWD=sometext
+the result can be viewed by the following commands:
+             env |grep MYSECRETPASSWD
+or 
+             printenv |grep MYSECRETPASSWD
+or 
+           echo $MYSECRETPASSWD
+*/
